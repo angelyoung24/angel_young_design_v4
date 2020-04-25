@@ -65,7 +65,7 @@ const Resume = ({
         <SocialInformation>
           {GITHUB_ID ? (
             <a
-              href={`https://github.com/${GITHUB_ID}`}
+              href={`https://github.com/angelyoung24`}
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -74,29 +74,11 @@ const Resume = ({
           ) : null}
           {TWITTER_ID ? (
             <a
-              href={`https://twitter.com/${TWITTER_ID}`}
+              href={`https://twitter.com/tornadosong`}
               target="_blank"
               rel="noreferrer noopener"
             >
               <FaTwitter />
-            </a>
-          ) : null}
-          {FACEBOOK_ID ? (
-            <a
-              href={`https://www.facebook.com/${FACEBOOK_ID}`}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FaFacebook />
-            </a>
-          ) : null}
-          {LINKEDIN_ID ? (
-            <a
-              href={`https://www.linkedin.com/in/${LINKEDIN_ID}/`}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FaLinkedin />
             </a>
           ) : null}
         </SocialInformation>
